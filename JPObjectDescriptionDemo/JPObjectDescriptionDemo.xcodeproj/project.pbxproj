@@ -15,8 +15,8 @@
 		B1DA5D181C96A78D000A4C3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1DA5D161C96A78D000A4C3E /* LaunchScreen.storyboard */; };
 		B1DA5D231C96A78D000A4C3E /* JPObjectDescriptionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DA5D221C96A78D000A4C3E /* JPObjectDescriptionDemoTests.m */; };
 		B1DA5D2E1C96A78D000A4C3E /* JPObjectDescriptionDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DA5D2D1C96A78D000A4C3E /* JPObjectDescriptionDemoUITests.m */; };
-		B1DA5D3E1C96A81D000A4C3E /* NSObject+JPObjectDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DA5D3D1C96A81D000A4C3E /* NSObject+JPObjectDescription.m */; };
 		B1DA5D421C96A9C2000A4C3E /* JPBook.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DA5D411C96A9C2000A4C3E /* JPBook.m */; };
+		B1DA5D461C96B02D000A4C3E /* NSObject+JPObjectDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DA5D451C96B02D000A4C3E /* NSObject+JPObjectDescription.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +53,10 @@
 		B1DA5D291C96A78D000A4C3E /* JPObjectDescriptionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPObjectDescriptionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1DA5D2D1C96A78D000A4C3E /* JPObjectDescriptionDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPObjectDescriptionDemoUITests.m; sourceTree = "<group>"; };
 		B1DA5D2F1C96A78D000A4C3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B1DA5D3C1C96A81D000A4C3E /* NSObject+JPObjectDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JPObjectDescription.h"; sourceTree = "<group>"; };
-		B1DA5D3D1C96A81D000A4C3E /* NSObject+JPObjectDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JPObjectDescription.m"; sourceTree = "<group>"; };
 		B1DA5D401C96A9C2000A4C3E /* JPBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPBook.h; sourceTree = "<group>"; };
 		B1DA5D411C96A9C2000A4C3E /* JPBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPBook.m; sourceTree = "<group>"; };
+		B1DA5D441C96B02D000A4C3E /* NSObject+JPObjectDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JPObjectDescription.h"; sourceTree = "<group>"; };
+		B1DA5D451C96B02D000A4C3E /* NSObject+JPObjectDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JPObjectDescription.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 		B1DA5CFC1C96A78D000A4C3E = {
 			isa = PBXGroup;
 			children = (
-				B1DA5D3B1C96A7E4000A4C3E /* JPObjectDescription */,
+				B1DA5D431C96B02D000A4C3E /* JPObjectDescription */,
 				B1DA5D071C96A78D000A4C3E /* JPObjectDescriptionDemo */,
 				B1DA5D211C96A78D000A4C3E /* JPObjectDescriptionDemoTests */,
 				B1DA5D2C1C96A78D000A4C3E /* JPObjectDescriptionDemoUITests */,
@@ -148,15 +148,6 @@
 			path = JPObjectDescriptionDemoUITests;
 			sourceTree = "<group>";
 		};
-		B1DA5D3B1C96A7E4000A4C3E /* JPObjectDescription */ = {
-			isa = PBXGroup;
-			children = (
-				B1DA5D3C1C96A81D000A4C3E /* NSObject+JPObjectDescription.h */,
-				B1DA5D3D1C96A81D000A4C3E /* NSObject+JPObjectDescription.m */,
-			);
-			path = JPObjectDescription;
-			sourceTree = "<group>";
-		};
 		B1DA5D3F1C96A83E000A4C3E /* TestObject */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +155,16 @@
 				B1DA5D411C96A9C2000A4C3E /* JPBook.m */,
 			);
 			path = TestObject;
+			sourceTree = "<group>";
+		};
+		B1DA5D431C96B02D000A4C3E /* JPObjectDescription */ = {
+			isa = PBXGroup;
+			children = (
+				B1DA5D441C96B02D000A4C3E /* NSObject+JPObjectDescription.h */,
+				B1DA5D451C96B02D000A4C3E /* NSObject+JPObjectDescription.m */,
+			);
+			name = JPObjectDescription;
+			path = ../JPObjectDescription;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,9 +299,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1DA5D101C96A78D000A4C3E /* ViewController.m in Sources */,
-				B1DA5D3E1C96A81D000A4C3E /* NSObject+JPObjectDescription.m in Sources */,
 				B1DA5D0D1C96A78D000A4C3E /* AppDelegate.m in Sources */,
 				B1DA5D421C96A9C2000A4C3E /* JPBook.m in Sources */,
+				B1DA5D461C96B02D000A4C3E /* NSObject+JPObjectDescription.m in Sources */,
 				B1DA5D0A1C96A78D000A4C3E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -527,6 +528,7 @@
 				B1DA5D341C96A78D000A4C3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1DA5D351C96A78D000A4C3E /* Build configuration list for PBXNativeTarget "JPObjectDescriptionDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +537,7 @@
 				B1DA5D371C96A78D000A4C3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1DA5D381C96A78D000A4C3E /* Build configuration list for PBXNativeTarget "JPObjectDescriptionDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -543,6 +546,7 @@
 				B1DA5D3A1C96A78D000A4C3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
