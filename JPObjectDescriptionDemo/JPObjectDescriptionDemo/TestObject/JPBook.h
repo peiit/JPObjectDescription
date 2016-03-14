@@ -8,10 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
+#import "JPBookContent.h"
+
 @interface JPBook : NSObject
 
-@property (nonatomic, strong) NSNumber * bId;
-@property (nonatomic, strong ) NSString * name;
-@property (nonatomic, strong ) NSString * author;
+@property (nonatomic, strong ) NSNumber      * bId;
+@property (nonatomic, strong ) NSString      * name;
+@property (nonatomic, strong ) NSString      * author;
+
+@property (nonatomic, strong ) JPBookContent * content;
 
 @end

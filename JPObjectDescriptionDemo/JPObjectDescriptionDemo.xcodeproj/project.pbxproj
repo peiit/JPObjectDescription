@@ -17,6 +17,7 @@
 		B1DA5D2E1C96A78D000A4C3E /* JPObjectDescriptionDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DA5D2D1C96A78D000A4C3E /* JPObjectDescriptionDemoUITests.m */; };
 		B1DA5D421C96A9C2000A4C3E /* JPBook.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DA5D411C96A9C2000A4C3E /* JPBook.m */; };
 		B1DA5D461C96B02D000A4C3E /* NSObject+JPObjectDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DA5D451C96B02D000A4C3E /* NSObject+JPObjectDescription.m */; };
+		B1DA5D4C1C96B7A1000A4C3E /* JPBookContent.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DA5D4B1C96B7A1000A4C3E /* JPBookContent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		B1DA5D411C96A9C2000A4C3E /* JPBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPBook.m; sourceTree = "<group>"; };
 		B1DA5D441C96B02D000A4C3E /* NSObject+JPObjectDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JPObjectDescription.h"; sourceTree = "<group>"; };
 		B1DA5D451C96B02D000A4C3E /* NSObject+JPObjectDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JPObjectDescription.m"; sourceTree = "<group>"; };
+		B1DA5D4A1C96B7A1000A4C3E /* JPBookContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPBookContent.h; sourceTree = "<group>"; };
+		B1DA5D4B1C96B7A1000A4C3E /* JPBookContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPBookContent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +156,8 @@
 			children = (
 				B1DA5D401C96A9C2000A4C3E /* JPBook.h */,
 				B1DA5D411C96A9C2000A4C3E /* JPBook.m */,
+				B1DA5D4A1C96B7A1000A4C3E /* JPBookContent.h */,
+				B1DA5D4B1C96B7A1000A4C3E /* JPBookContent.m */,
 			);
 			path = TestObject;
 			sourceTree = "<group>";
@@ -302,6 +307,7 @@
 				B1DA5D0D1C96A78D000A4C3E /* AppDelegate.m in Sources */,
 				B1DA5D421C96A9C2000A4C3E /* JPBook.m in Sources */,
 				B1DA5D461C96B02D000A4C3E /* NSObject+JPObjectDescription.m in Sources */,
+				B1DA5D4C1C96B7A1000A4C3E /* JPBookContent.m in Sources */,
 				B1DA5D0A1C96A78D000A4C3E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
