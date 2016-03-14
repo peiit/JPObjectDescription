@@ -34,7 +34,7 @@
         return nil;
     }
     else if ([[self class] isSubclassOfClass:[CALayer class]]) {
-            return self;
+            return nil;
     }else{
         NSArray * allProperties = [self getAllProperties];
         NSString * print_str = [NSString stringWithFormat:@"⚠️%@\n",[self class]];
